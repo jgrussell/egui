@@ -19,7 +19,11 @@ jobs:
           profile: minimal
           toolchain: stable
           override: true
+<<<<<<< HEAD
       - run: sudo apt-get install libspeechd-dev
+=======
+      - run: sudo apt-get install libspeechd-dev          
+>>>>>>> da3d941726d97335b945d392cb9cd92ab647775e
       - uses: actions-rs/cargo@v1
         with:
           command: check
